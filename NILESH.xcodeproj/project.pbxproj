@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD024A715F05A6800661489 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024A615F05A6800661489 /* UIKit.framework */; };
+		5FD024A915F05A6800661489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024A815F05A6800661489 /* Foundation.framework */; };
+		5FD024AB15F05A6800661489 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024AA15F05A6800661489 /* CoreGraphics.framework */; };
+		5FD024B115F05A6800661489 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD024AF15F05A6800661489 /* InfoPlist.strings */; };
+		5FD024B315F05A6800661489 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD024B215F05A6800661489 /* main.m */; };
+		5FD024B715F05A6800661489 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD024B615F05A6800661489 /* AppDelegate.m */; };
+		5FD024BA15F05A6800661489 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD024B815F05A6800661489 /* MainStoryboard.storyboard */; };
+		5FD024BD15F05A6800661489 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD024BC15F05A6800661489 /* ViewController.m */; };
+		5FD024C515F05A6800661489 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024C415F05A6800661489 /* SenTestingKit.framework */; };
+		5FD024C615F05A6800661489 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024A615F05A6800661489 /* UIKit.framework */; };
+		5FD024C715F05A6800661489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD024A815F05A6800661489 /* Foundation.framework */; };
+		5FD024CF15F05A6800661489 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD024CD15F05A6800661489 /* InfoPlist.strings */; };
+		5FD024D215F05A6800661489 /* NILESHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD024D115F05A6800661489 /* NILESHTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD024C815F05A6800661489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD0249915F05A6800661489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD024A115F05A6800661489;
+			remoteInfo = NILESH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD024A215F05A6800661489 /* NILESH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NILESH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD024A615F05A6800661489 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FD024A815F05A6800661489 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FD024AA15F05A6800661489 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FD024AE15F05A6800661489 /* NILESH-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NILESH-Info.plist"; sourceTree = "<group>"; };
+		5FD024B015F05A6800661489 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD024B215F05A6800661489 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD024B415F05A6800661489 /* NILESH-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NILESH-Prefix.pch"; sourceTree = "<group>"; };
+		5FD024B515F05A6800661489 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FD024B615F05A6800661489 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FD024B915F05A6800661489 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5FD024BB15F05A6800661489 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FD024BC15F05A6800661489 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FD024C315F05A6800661489 /* NILESHTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NILESHTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD024C415F05A6800661489 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FD024CC15F05A6800661489 /* NILESHTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NILESHTests-Info.plist"; sourceTree = "<group>"; };
+		5FD024CE15F05A6800661489 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD024D015F05A6800661489 /* NILESHTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NILESHTests.h; sourceTree = "<group>"; };
+		5FD024D115F05A6800661489 /* NILESHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NILESHTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD0249F15F05A6800661489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024A715F05A6800661489 /* UIKit.framework in Frameworks */,
+				5FD024A915F05A6800661489 /* Foundation.framework in Frameworks */,
+				5FD024AB15F05A6800661489 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD024BF15F05A6800661489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024C515F05A6800661489 /* SenTestingKit.framework in Frameworks */,
+				5FD024C615F05A6800661489 /* UIKit.framework in Frameworks */,
+				5FD024C715F05A6800661489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD0249715F05A6800661489 = {
+			isa = PBXGroup;
+			children = (
+				5FD024AC15F05A6800661489 /* NILESH */,
+				5FD024CA15F05A6800661489 /* NILESHTests */,
+				5FD024A515F05A6800661489 /* Frameworks */,
+				5FD024A315F05A6800661489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD024A315F05A6800661489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024A215F05A6800661489 /* NILESH.app */,
+				5FD024C315F05A6800661489 /* NILESHTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD024A515F05A6800661489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024A615F05A6800661489 /* UIKit.framework */,
+				5FD024A815F05A6800661489 /* Foundation.framework */,
+				5FD024AA15F05A6800661489 /* CoreGraphics.framework */,
+				5FD024C415F05A6800661489 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD024AC15F05A6800661489 /* NILESH */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024B515F05A6800661489 /* AppDelegate.h */,
+				5FD024B615F05A6800661489 /* AppDelegate.m */,
+				5FD024B815F05A6800661489 /* MainStoryboard.storyboard */,
+				5FD024BB15F05A6800661489 /* ViewController.h */,
+				5FD024BC15F05A6800661489 /* ViewController.m */,
+				5FD024AD15F05A6800661489 /* Supporting Files */,
+			);
+			path = NILESH;
+			sourceTree = "<group>";
+		};
+		5FD024AD15F05A6800661489 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024AE15F05A6800661489 /* NILESH-Info.plist */,
+				5FD024AF15F05A6800661489 /* InfoPlist.strings */,
+				5FD024B215F05A6800661489 /* main.m */,
+				5FD024B415F05A6800661489 /* NILESH-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD024CA15F05A6800661489 /* NILESHTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024D015F05A6800661489 /* NILESHTests.h */,
+				5FD024D115F05A6800661489 /* NILESHTests.m */,
+				5FD024CB15F05A6800661489 /* Supporting Files */,
+			);
+			path = NILESHTests;
+			sourceTree = "<group>";
+		};
+		5FD024CB15F05A6800661489 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD024CC15F05A6800661489 /* NILESHTests-Info.plist */,
+				5FD024CD15F05A6800661489 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD024A115F05A6800661489 /* NILESH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD024D515F05A6800661489 /* Build configuration list for PBXNativeTarget "NILESH" */;
+			buildPhases = (
+				5FD0249E15F05A6800661489 /* Sources */,
+				5FD0249F15F05A6800661489 /* Frameworks */,
+				5FD024A015F05A6800661489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NILESH;
+			productName = NILESH;
+			productReference = 5FD024A215F05A6800661489 /* NILESH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD024C215F05A6800661489 /* NILESHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD024D815F05A6800661489 /* Build configuration list for PBXNativeTarget "NILESHTests" */;
+			buildPhases = (
+				5FD024BE15F05A6800661489 /* Sources */,
+				5FD024BF15F05A6800661489 /* Frameworks */,
+				5FD024C015F05A6800661489 /* Resources */,
+				5FD024C115F05A6800661489 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD024C915F05A6800661489 /* PBXTargetDependency */,
+			);
+			name = NILESHTests;
+			productName = NILESHTests;
+			productReference = 5FD024C315F05A6800661489 /* NILESHTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD0249915F05A6800661489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Arihant;
+			};
+			buildConfigurationList = 5FD0249C15F05A6800661489 /* Build configuration list for PBXProject "NILESH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FD0249715F05A6800661489;
+			productRefGroup = 5FD024A315F05A6800661489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD024A115F05A6800661489 /* NILESH */,
+				5FD024C215F05A6800661489 /* NILESHTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD024A015F05A6800661489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024B115F05A6800661489 /* InfoPlist.strings in Resources */,
+				5FD024BA15F05A6800661489 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD024C015F05A6800661489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024CF15F05A6800661489 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD024C115F05A6800661489 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD0249E15F05A6800661489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024B315F05A6800661489 /* main.m in Sources */,
+				5FD024B715F05A6800661489 /* AppDelegate.m in Sources */,
+				5FD024BD15F05A6800661489 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD024BE15F05A6800661489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD024D215F05A6800661489 /* NILESHTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD024C915F05A6800661489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD024A115F05A6800661489 /* NILESH */;
+			targetProxy = 5FD024C815F05A6800661489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD024AF15F05A6800661489 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD024B015F05A6800661489 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FD024B815F05A6800661489 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD024B915F05A6800661489 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD024CD15F05A6800661489 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD024CE15F05A6800661489 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD024D315F05A6800661489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5FD024D415F05A6800661489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD024D615F05A6800661489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NILESH/NILESH-Prefix.pch";
+				INFOPLIST_FILE = "NILESH/NILESH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FD024D715F05A6800661489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NILESH/NILESH-Prefix.pch";
+				INFOPLIST_FILE = "NILESH/NILESH-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FD024D915F05A6800661489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NILESH.app/NILESH";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NILESH/NILESH-Prefix.pch";
+				INFOPLIST_FILE = "NILESHTests/NILESHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5FD024DA15F05A6800661489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NILESH.app/NILESH";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NILESH/NILESH-Prefix.pch";
+				INFOPLIST_FILE = "NILESHTests/NILESHTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD0249C15F05A6800661489 /* Build configuration list for PBXProject "NILESH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD024D315F05A6800661489 /* Debug */,
+				5FD024D415F05A6800661489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD024D515F05A6800661489 /* Build configuration list for PBXNativeTarget "NILESH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD024D615F05A6800661489 /* Debug */,
+				5FD024D715F05A6800661489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD024D815F05A6800661489 /* Build configuration list for PBXNativeTarget "NILESHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD024D915F05A6800661489 /* Debug */,
+				5FD024DA15F05A6800661489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD0249915F05A6800661489 /* Project object */;
+}
