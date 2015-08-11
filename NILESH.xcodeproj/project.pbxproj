@@ -22,6 +22,18 @@
 		5FD024D215F05A6800661489 /* NILESHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD024D115F05A6800661489 /* NILESHTests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		5FD024DB15F05BF000661489 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXContainerItemProxy section */
 		5FD024C815F05A6800661489 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -163,6 +175,7 @@
 				5FD024A015F05A6800661489 /* Resources */,
 			);
 			buildRules = (
+				5FD024DB15F05BF000661489 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
